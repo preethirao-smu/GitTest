@@ -12,7 +12,7 @@ class testBankAccount(unittest.TestCase):
     self.assertEqual(bal, 1000)
     self.assertEqual(s.name(), "Swarna")
     #calling functions with that class
-    self.assertEqual(s.deposit(500), 1500)
+    self.assertEqual(s.deposit(550), 1550)
  def test_withdraw(self):
     #creating an object of class
     s = BankAccount(1500, "Swarna")
