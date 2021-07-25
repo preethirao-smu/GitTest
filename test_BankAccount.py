@@ -12,8 +12,8 @@ from Bank_Account import BankAccount
 def test_deposit():
     account = BankAccount(124124,100)
     assert account.getAcctNum() == 124124
-    account.deposit(290)
-    assert account.getBalance() == 390
+    account.deposit(300)
+    assert account.getBalance() == 400
 
 # function to test the withdraw() func of BankAccount
 # create a BankAccount Object
