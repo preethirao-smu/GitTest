@@ -12,7 +12,7 @@ from Bank_Account import BankAccount
 def test_deposit():
     account = BankAccount(124124,100)
     assert account.getAcctNum() == 124124
-    account.deposit(260)
+    account.deposit(270)
     assert account.getBalance() == 360
 
 # function to test the withdraw() func of BankAccount
