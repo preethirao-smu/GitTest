@@ -4,5 +4,5 @@ app =  Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Welcome to My Bank Application"
+    return "Welcome to My Application"
     
